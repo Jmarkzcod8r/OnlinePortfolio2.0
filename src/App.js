@@ -1,23 +1,3 @@
-// import React from 'react';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-
-
-// sdasds
-    
-//     {/* sadasdsass */}
-//     </div>
-//     // klsdja
-//   );
-// }
-
-// export default App;
-
-
-
 import React from 'react';
 import './App.css';
 // import Hexagon from './Hexagon';
@@ -40,6 +20,8 @@ import TerminalUbuntu from './TerminalUbuntu';
 import Macbookproject from './Macbookproject';
 import Portfoliotitle from './Portfoliotitle';
 import TerminalUbuntumini from './TerminalUbuntumini';
+import ConnectTitle from './ConnectTitle';
+import Connecticons from './Connecticons';
 
 
 
@@ -59,7 +41,7 @@ function App(Topic,Message, link, Title) {
       <Niche Topic = "About"/>
       <Niche Topic = "Qualifications"/>
       <Niche Topic = "Projects"/>
-      <Niche Topic = "Connect"/>
+      {/* <Niche Topic = "Connect"/> */}
       
      
       </div>
@@ -109,34 +91,50 @@ function App(Topic,Message, link, Title) {
 
 
       <div class="Projects_container">
+
+      {/* <div class="rb_title"> */}
+      <div class="rb_title1">RED BUBBLE <br/>AUTOMATED UPLOADER</div>
+      
+      {/* <div/> */}
+      
       <img src={Forportfoliorb} class="Projects_container_Forportfolio" alt="Forportfolio"></img>
       <Macbookproject/>
       
   
       <TerminalUbuntumini Topic="
-      This is a graphical user interface that lets you costumize your designs easily and once you’ve done that, you can proceed to uploading them automatically. This program has a mirrored vibe with the red bubble interface in the web. The title, description and tags boxes are positioned similarly. This all falls in the print on demand sphere. 
-	      " Message="Normally, it would be time consuming to upoad from one design to another. I saw that it can be often be frustrating and tiring doing the same things over again and so, I slowly built this code to assist me in such a task. This now removes the limit that other similar subscription-based options one can scan on the internet.
-        "/>
+      This is a graphical user interface that lets you costumize your designs easily and once you’ve done that, you can proceed to uploading them automatically. This program has a mirrored vibe with the red bubble interface in the web. The title, description and tags boxes are positioned similarly. This all falls in the print on demand sphere." 
+        Message="Normally, it would be time consuming to upoad from one design to another. I saw that it can be often be frustrating and tiring doing the same things over again and so, I slowly built this code to assist me in such a task. This now removes the limit that other similar subscription-based options one can scan on the internet."
+        link="https://github.com/Jmarkzcod8r/Red-Bubble-Uploader-GUI"
+
+        />
 
      
       </div>
 
       <div class="Projects_container2">
+      <div class="pk_title">BASIC PASSWORD <br/>KEEPER</div>
       <img src={pwkeeperone} class="Projects_container2_pwkeeperone" alt="pwkeeperone"></img>
       <img src={pwkeeperoneone} class="Projects_container2_pwkeeperoneone" alt="pwkeeperoneone"></img>
       <Macbookproject/>
   
 
       <TerminalUbuntumini Topic="
-      This is graphical user interface that lets you store your different login credentials from various websites with ease. It eliminates if not lessen the number of failed attempts we often have when logging to our account for that particular site. It's like an alternate version of google password manager. You simply choose from the list and choose what emaiil you wish to see your designated password on.  " />
+      This is graphical user interface that lets you store your different login credentials from various websites with ease. It eliminates if not lessen the number of failed attempts we often have when logging to our account for that particular site. It's like an alternate version of google password manager. You simply choose from the list and choose what emaiil you wish to see your designated password on.  " 
+        Message="Just like other applications, this is always open for new improvements."
+        link="https://github.com/Jmarkzcod8r/Passwork-Keeper"
+      />
      
       </div>
 
 
      
+      <div class="ConnectTitle_headcontainer">
+        <ConnectTitle/>
+      </div>
 
-
-    
+      <div class="Connecticons_container">
+        <Connecticons/>
+      </div>
 
 
 

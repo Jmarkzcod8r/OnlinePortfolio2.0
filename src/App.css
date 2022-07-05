@@ -206,12 +206,23 @@ padding-left: 12%;
   /* columns: 2; */
 }
 
+.rb_title1{
+  width: 100%;
+  /* justify-items: center; */
+  text-align: center;
+  /* background-color: #29692c; */
+  font-size: xx-large;
+  color:#0632f7;
+  /* text-shadow: #5D4F85; */
+}
+
+
 .Projects_container_Forportfolio{
   position:absolute;
   height:170px;
   z-index: 4;
   left: 7.5em;
-  top:6em;
+  top:9em;
 
 }
 
@@ -254,6 +265,15 @@ padding-left: 12%;
 
 }
 
+.pk_title{
+  width: 100%;
+  /* justify-items: center; */
+  text-align: center;
+  /* background-color: #29692c; */
+  font-size: xx-large;
+  color:#0632f7;
+}
+
 .Projects_container2_pwkeeperone{
   position: absolute;
   z-index: 4;
@@ -266,7 +286,7 @@ padding-left: 12%;
   z-index: 4;
   scale: 0.5;
   left:18em;
-  top:4em;
+  top:7em;
 }
 
 
@@ -505,12 +525,32 @@ padding-left: 12%;
   /* left: 85.71%; */
 }
 
-/* .Connect{
+/* .Connect{ConnectTitle_container
   position: absolute;
   background-color: #563D7C;
   opacity: 0.3;
   left: 16.6%;
 } */
+
+.ConnectTitle_headcontainer{
+  width: auto;
+  height: auto;
+  top:150em;
+  left:13em;
+  /* background-color: #3776AB; */
+  position: absolute;
+}
+
+.Connecticons_container{
+  position: absolute;
+  top:163em;
+  /* display: flex; */
+  justify-content: center;
+  /* background-color: #0632f7; */
+  width: 100%;
+}
+
+
 
 
 :root {

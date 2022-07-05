@@ -21,6 +21,8 @@ const TerminalUbuntumini = (props) => {
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{props.Topic}
 
 	<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {props.Message}
+	<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	<a href={props.link}>Click for more details</a>
 	
 	
 	 </span><span id="tow"></span>
