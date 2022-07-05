@@ -1,6 +1,6 @@
 import React from 'react';
 import './Connecticons.scss';
-import codepenlogo from './connect_logos/codepenlogo.png';
+// import codepenlogo from './connect_logos/codepenlogo.png';
 import githubicon from './connect_logos/githubicon.png';
 import linkedinicon from './connect_logos/Linkedinicon.png';
 import facebookicon from './connect_logos/facebookicon.png';
@@ -46,12 +46,12 @@ function Connecticons() {
     <img class="instagramicon" src={instagramicon} alt="instagramicon" href="https://www.instagram.com/jmarkz_008/"></img>
   </a>
   
- 
+{/*  
   <a class="social-icon social-icon--codepen" href="http://www.youtube.com">
     <i class="fa fa-codepen"></i>
     <div class="tooltip">Codepen</div>
     <img class="codepenlogo" src={codepenlogo} alt="codepenlogo"></img>
-  </a>
+  </a> */}
 </div>
     
     );

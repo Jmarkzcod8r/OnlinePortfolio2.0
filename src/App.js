@@ -41,7 +41,7 @@ function App(Topic,Message, link, Title) {
       <Niche Topic = "About"/>
       <Niche Topic = "Qualifications"/>
       <Niche Topic = "Projects"/>
-      {/* <Niche Topic = "Connect"/> */}
+      <Niche Topic = "Connect"/>
       
      
       </div>
