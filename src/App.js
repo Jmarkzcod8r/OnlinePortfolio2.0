@@ -27,7 +27,7 @@ import Connecticons from './Connecticons';
 
 function App(Topic,Message, link, Title) {
   return (
-    <div className="App_body">
+    <div id="App_body" className="App_body">
 
       <div className='Container_city-lights'>
       <img src={city_lights} className="App-city_lights" alt="city_lights" />
@@ -35,13 +35,13 @@ function App(Topic,Message, link, Title) {
       </div>
 
      
-    <div className="Parent_container">
+    <div id="Parent_container" className="Parent_container">
     
-      <Niche Topic = "Home" link=".About_parent" />
-      <Niche Topic = "About"/>
-      <Niche Topic = "Qualifications"/>
-      <Niche Topic = "Projects"/>
-      <Niche Topic = "Connect"/>
+      <Niche Topic = "Home"  link="#App_body"/>
+      <Niche Topic = "About" link="#About_parent"/>
+      <Niche Topic = "Qualifications" link="#QualificationsTitle_container"/>
+      <Niche Topic = "Projects" link="#Portfolio_container"/>
+      <Niche Topic = "Connect" link="#ConnectTitle_headcontainer"/>
       
      
       </div>
@@ -56,20 +56,16 @@ function App(Topic,Message, link, Title) {
     
       </div>
 
-      <div class="About_parent">
+      <div id="About_parent" class="About_parent">
 
       <AnimatedTitle/>
       </div>
       <div class="About_me">
       <AboutMeBox/>
-      
-      
-
-
-
+    
       </div>
       
-      <div class="Portfolio_container">
+      <div id="Portfolio_container" class="Portfolio_container">
       {/* amsndbnassnd */}
       <Portfoliotitle />
       {/* <Qualifications Title="Portfolio"/> */}
@@ -84,13 +80,13 @@ function App(Topic,Message, link, Title) {
       {/* <Macbookproject/> */}
       </div>
 
-      <div class="QualificationsTitle_container">
+      <div id="QualificationsTitle_container" class="QualificationsTitle_container">
       <Qualifications/>
       </div>
 
 
 
-      <div class="Projects_container">
+      <div id="Projects_container" class="Projects_container">
 
       {/* <div class="rb_title"> */}
       <div class="rb_title1">RED BUBBLE <br/>AUTOMATED UPLOADER</div>
@@ -128,7 +124,7 @@ function App(Topic,Message, link, Title) {
 
 
      
-      <div class="ConnectTitle_headcontainer">
+      <div id="ConnectTitle_headcontainer" class="ConnectTitle_headcontainer">
         <ConnectTitle/>
       </div>
 
