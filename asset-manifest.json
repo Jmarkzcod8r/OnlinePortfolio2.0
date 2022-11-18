@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/OnlinePortfolio2.0/static/css/main.507a1c7a.css",
+    "main.js": "/OnlinePortfolio2.0/static/js/main.d263e9c5.js",
+    "static/js/787.25c38a58.chunk.js": "/OnlinePortfolio2.0/static/js/787.25c38a58.chunk.js",
+    "static/media/city_lights.jpg": "/OnlinePortfolio2.0/static/media/city_lights.eda85de634c675f0314a.jpg",
+    "static/media/Me.jpg": "/OnlinePortfolio2.0/static/media/Me.c8b07293fd1b94bb8e4e.jpg",
+    "static/media/Whiteseed-live.png": "/OnlinePortfolio2.0/static/media/Whiteseed-live.c23f3ff3389d5f45cbbc.png",
+    "static/media/Online_Journal.png": "/OnlinePortfolio2.0/static/media/Online_Journal.23bda4115c365d4ef9c0.png",
+    "static/media/Forportfoliorb.png": "/OnlinePortfolio2.0/static/media/Forportfoliorb.7e25dfaf94dfd89cf547.png",
+    "static/media/windowsscreen.png": "/OnlinePortfolio2.0/static/media/windowsscreen.d407ffb04e7b4bf28870.png",
+    "static/media/instagramicon.png": "/OnlinePortfolio2.0/static/media/instagramicon.0040b8228c6f43bf43a1.png",
+    "static/media/pwkeeperone.png": "/OnlinePortfolio2.0/static/media/pwkeeperone.bdea9bc0dad4fffa47ac.png",
+    "static/media/pwkeeperoneone.png": "/OnlinePortfolio2.0/static/media/pwkeeperoneone.1a46f47b95357eac2008.png",
+    "index.html": "/OnlinePortfolio2.0/index.html",
+    "main.507a1c7a.css.map": "/OnlinePortfolio2.0/static/css/main.507a1c7a.css.map",
+    "main.d263e9c5.js.map": "/OnlinePortfolio2.0/static/js/main.d263e9c5.js.map",
+    "787.25c38a58.chunk.js.map": "/OnlinePortfolio2.0/static/js/787.25c38a58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.507a1c7a.css",
+    "static/js/main.d263e9c5.js"
+  ]
+}
