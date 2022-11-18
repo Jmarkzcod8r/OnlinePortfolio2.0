@@ -57,8 +57,8 @@ a:hover {
  /* background-color: whitesmoke; */
  /* background: transparent; */
  
- -webkit-animation: master-container-bg 15s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
- animation: master-container-bg 15s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+ -webkit-animation: master-container-bg 8s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+ animation: master-container-bg 8s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
  /* display: -webkit-flex;
  display: -ms-flexbox; */
  display: flex; 
@@ -86,8 +86,8 @@ a:hover {
 
 @media screen and (max-width: 615px) {
  #master-container {
-     -webkit-animation: master-container-bg-mobile 15s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
-     animation: master-container-bg-mobile 15s cubic-bezier(0.645, 0.045, 0.355, 1) infinite
+     -webkit-animation: master-container-bg-mobile 8s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+     animation: master-container-bg-mobile 8s cubic-bezier(0.645, 0.045, 0.355, 1) infinite
  }
 }
 
@@ -109,8 +109,8 @@ a:hover {
 #master-container-scroller .master-container-scroller_item {
  display: block;
  padding-bottom: 6px;
- -webkit-animation: scroll 15s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
- animation: scroll 15s cubic-bezier(0.645, 0.045, 0.355, 1) infinite
+ -webkit-animation: scroll 10s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+ animation: scroll 10s cubic-bezier(0.645, 0.045, 0.355, 1) infinite
 }
 
 #master-container-scroller .master-container-scroller_item[href]:hover {

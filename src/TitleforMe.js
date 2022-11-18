@@ -23,33 +23,36 @@ function TitleforMe() {
               </div>
               <div id='master-container-scroller'>
                 <div class='master-container-scroller_item'>
-                  <div class='cta-link' href='#'>WEB DEVELOPER</div>
+                  <div class='cta-link' href='#'>FRONT-END DEVELOPER</div>
                 </div>
-                <div class='master-container-scroller_item'>
+                {/* <div class='master-container-scroller_item'>
                   <div class='cta-link' href='#'>SOFTWARE PROGRAMMER</div>
-                </div>
-                <div class='master-container-scroller_item'>
+                </div> */}
+                {/* <div class='master-container-scroller_item'>
                   <div class='cta-link' href='#'></div>DATABASE DEVELOPER
-                </div>
+                </div> */}
                 <div class='master-container-scroller_item'>
                   <div class='cta-link' href='#'>WEB DEVELOPER</div>
+                </div>
+                <div class='master-container-scroller_item'>
+                  <div class='cta-link' href='#'>FULL STACK DEVELOPER</div>
                 </div>
                 <div class='master-container-scroller_item'>
                   <div class='cta-link' href='#'>SOFTWARE PROGRAMMER</div>
                 </div>
                 <div class='master-container-scroller_item'>
-                  <div class='cta-link' href='#'>DATABASE DEVELOPER</div>
+                  <div class='cta-link' href='#'>FRONT_END DEVELOPER</div>
                 </div>
-                <div class='master-container-scroller_item'>
+                {/* <div class='master-container-scroller_item'>
                   <div class='cta-link' href='#'>WEB DEVELOPER</div>
-                </div>
+                </div> */}
                 <div class='master-container-scroller_item'>
+                  <div class='cta-link' href='#'>FULL STACK DEVELOPER</div>
+                </div>
+                {/* <div class='master-container-scroller_item'>
                   <div class='cta-link' href='#'>SOFTWARE PROGRAMMER</div>
-                </div>
-                <div class='master-container-scroller_item'>
-                  <div class='cta-link' href='#'>DATABASE DEVELOPER</div>
-                </div>
-                <div class='master-container-scroller_item'>Awesome</div>
+                </div> */}
+                {/* <div class='master-container-scroller_item'>Awesome</div> */}
               </div>
               {/* <div>Nice to see you.</div> */}
             </h1>
