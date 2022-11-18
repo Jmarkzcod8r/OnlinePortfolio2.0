@@ -40,9 +40,9 @@ function App(Topic,Message, link, Title) {
      </script>
      </head>
 
-      <h1 class="headline">
+      {/* <h1 class="headline">
     Widget Inc.
-</h1>
+</h1> */}
 
 
 
